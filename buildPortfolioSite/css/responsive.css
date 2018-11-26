@@ -1,0 +1,19 @@
+/***Mobile design***/
+@media screen and (min-width: 361px){
+
+.header__inner {
+	display: flex;
+	flex-wrap: wrap;
+}
+}
+
+
+
+/***Ipad design***/
+@media screen and (min-width: 769px){
+
+.header__inner {
+	display: flex;
+	flex-wrap: wrap;
+}
+}

@@ -1,0 +1,7 @@
+@media screen and (min-width: 640px) {
+
+.header__inner {
+	display: flex;
+	flex-wrap: wrap;
+	}
+}
