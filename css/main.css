@@ -1,4 +1,7 @@
-body, html {
+/*** Common ***/
+
+body,
+html {
 	margin: 0;
 	padding: 0;
 	width: 100%;
@@ -12,12 +15,18 @@ body {
 	color: #2d3c49;
 }
 
-h1, h2, hr {
- 	margin: 0;
+header,
+nav,
+footer,
+section,
+article,div {
+ 	box-sizing: border-box;
 }
 
-header, nav, footer, section, article, div {
- 	box-sizing: border-box;
+h1, 
+h2, 
+hr {
+ 	margin: 0
 }
 
 a {
@@ -31,13 +40,11 @@ a {
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .header__logo__container {
 	margin-top: 15px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .header__logo {
@@ -73,6 +80,10 @@ hr {
 
 /*** Content ***/
 
+.content {
+	line-height: 1.0;
+}
+
 .hero {
 	margin: 20px 0px 20px 0px;
 }
@@ -93,12 +104,9 @@ hr {
 .feature__work {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 	text-align: center;
 }
-
-.feature__work__1, .feature__work__2, .feature__work__3 {
-	width: 100%;
-	}
 
 .feature__work__image {
 	width: 50%;
@@ -108,11 +116,13 @@ hr {
 
 .feature__work__title {
 	text-transform: uppercase;
+	line-height: 1.0;
+	margin: 0;
 }
 
 .feature__work__url {
 	color: #2d3c49;
-	margin-bottom: 15px;
+	margin: 0px 0px 15px 0px;
 }
 
 
